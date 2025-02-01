@@ -1,0 +1,15 @@
+//
+//  Booking.swift
+//  Backery
+//
+//  Created by Shamam Alkafri on 25/01/2025.
+//
+
+
+import Foundation
+
+struct Booking: Identifiable, Codable {
+    let id: String
+    let course: Course
+    let dateBooked: String
+}
